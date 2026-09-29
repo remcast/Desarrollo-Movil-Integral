@@ -1,0 +1,36 @@
+{
+  "proyecto": {
+    "nombre": "GeoTracker Pro",
+    "tipo": "Aplicación de logística y rastreo de última milla",
+    "plataformas_requeridas": ["iOS", "Android"],
+    "tiempo_entrega": "3 meses (Lanzamiento MVP)",
+    "presupuesto_contratacion": "Restringido (No es viable contratar desarrolladores externos a corto plazo)",
+    "prioridad_negocio": "Time-to-Market acelerado"
+  },
+  "equipo_desarrollo": {
+    "tamano_equipo": 4,
+    "stack_actual": ["JavaScript", "React.js", "Node.js", "HTML/CSS"],
+    "experiencia_previa": "Alta experiencia en desarrollo web frontend y backend. Nula experiencia en lenguajes nativos móviles (Swift, Objective-C, Kotlin, Java).",
+    "curva_aprendizaje_disponible": "Muy baja, los desarrolladores deben ser productivos desde la semana 1."
+  },
+  "requerimientos_tecnicos": [
+    {
+      "id": "REQ-01",
+      "funcionalidad": "GPS en segundo plano",
+      "criticidad": "Alta",
+      "descripcion": "La aplicación debe continuar enviando la ubicación precisa del dispositivo al servidor cada 30 segundos, incluso cuando la app está minimizada o la pantalla está apagada."
+    },
+    {
+      "id": "REQ-02",
+      "funcionalidad": "Animaciones de mapas",
+      "criticidad": "Media",
+      "descripcion": "El mapa debe mostrar el movimiento del vehículo en tiempo real con transiciones fluidas, sin congelamiento de la interfaz de usuario."
+    },
+    {
+      "id": "REQ-03",
+      "funcionalidad": "Acceso a la cámara",
+      "criticidad": "Alta",
+      "descripcion": "Uso de la cámara para escanear códigos QR de paquetes y tomar fotografías de evidencia de entrega con carga inmediata."
+    }
+  ]
+}
